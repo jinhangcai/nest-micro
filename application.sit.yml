@@ -1,0 +1,14 @@
+PREFIX: api
+# 数据库配置
+datasource:
+  driverName: mysql
+  #host: 'rm-bp14pro2jnm3w9fv0.mysql.rds.aliyuncs.com'
+  host: '121.199.15.88'
+  port: 3306
+  database: 'micro'
+  username: 'micro'
+  password: '123456'
+  charset: utf8mb4
+  loc: Asia/Shanghai
+  logging: ['error', 'warn', 'info', 'log', 'migration']
+

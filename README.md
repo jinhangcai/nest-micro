@@ -26,8 +26,10 @@
 
 通过nest来写接口服务 本项目主要从src/main.ts入口开始
 
-##文件介绍
+## 文件介绍
+
 ###common: 页面的公共处理
+
 ###config: 环境配置
 ###decorators:sso配置
 ###entitites:数据库

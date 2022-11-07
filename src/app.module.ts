@@ -82,26 +82,6 @@ import { IS_DEV } from './config/configuration';
         }
       },
     })
-    // TypeOrmModule.forRoot({
-    //   type: 'mysql', // 数据库类型
-    //   host: 'rm-bp14pro2jnm3w9fv0.mysql.rds.aliyuncs.com', // 数据库ip地址
-    //   port: 3306, // 端口
-    //   username: 'dev_user', // 登录名
-    //   password: 'Ewt360@com', // 密码
-    //   database: 'devops_platform', // 数据库名称
-    //   entities: [__dirname + '/**/*.entity{.ts,.js}'], // 扫描本项目中.entity.ts或者.entity.js的文件
-    //   synchronize: true, // 定义数据库表结构与实体类字段同步(这里一旦数据库少了字段就会自动加入,根据需要来使用)
-    // })
-    // TypeOrmModule.forRoot({
-    //   type: 'mysql', // 数据库类型
-    //   host: 'localhost', // 数据库ip地址
-    //   port: 3306, // 端口
-    //   username: 'root', // 登录名
-    //   password: 'Domcai1993.', // 密码
-    //   database: 'prod', // 数据库名称
-    //   entities: [__dirname + '/**/*.entity{.ts,.js}'], // 扫描本项目中.entity.ts或者.entity.js的文件
-    //   synchronize: true, // 定义数据库表结构与实体类字段同步(这里一旦数据库少了字段就会自动加入,根据需要来使用)
-    // })
   ],
   // controllers: [AppController, AppCatController],
   // providers: [AppService],

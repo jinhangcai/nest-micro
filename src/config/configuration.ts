@@ -11,10 +11,10 @@ export const IS_DEV = getEnv() === 'sit';
 export default () => {
   const APP_ENV = getEnv();
   console.log('APP_ENV', APP_ENV)
-  let apiHost = 'https://admin.mistong.com';
+  let apiHost = 'xxx';
 
   if (APP_ENV === 'sit' || APP_ENV === 'atest') {
-    apiHost = 'http://admin.test.mistong.com';
+    apiHost = 'xxxx';
   }
 
   const yamlPath = path.join(process.cwd(), `./application.${getEnv()}.yml`);
